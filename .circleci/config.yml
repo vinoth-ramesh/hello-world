@@ -24,8 +24,8 @@ jobs:
     steps:
       - run: 
           command: |
-            echo "Welcome $Name to the project!!!" 
-            echo $Name
+            echo "Welcome $NAME to the project!!!" 
+            echo $NAME
 
 workflows:
   # Name the workflow "welcome"
