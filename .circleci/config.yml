@@ -18,6 +18,12 @@ jobs:
     steps:
       - run: echo "Print World!!!" 
 
+  print_name:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo "Welcome $Name to the project!!!" 
+
 workflows:
   # Name the workflow "welcome"
   welcome:
